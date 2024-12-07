@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Usuários</h1>
+
+        <form id="formCadastro">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="tel" id="telefone" placeholder="Telefone" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <h2>Lista de Cadastros</h2>
+        <table id="tabelaCadastro">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
